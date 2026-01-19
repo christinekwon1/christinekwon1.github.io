@@ -140,5 +140,3 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
-
-.contact-link { color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; } .email-icon { width: 16px; height: 16px; fill: currentColor; display: inline-block; vertical-align: middle; } /* screen-reader-only text */ .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
