@@ -141,20 +141,12 @@ span.highlight {
     border-radius: 10px;
 }
 
-:root{
-  --color-danger: #d9534f;
-  --color-link:  #0066cc;
-  --color-text:  #222222;
-}
-
-.emphasize {
-  color: var(--color-danger);
-  font-weight: 700;     /* bold */
-  text-decoration: none;
-}
-
-/* smaller / secondary emphasis */
-.emphasize-muted {
-  color: var(--color-link);
-  font-weight: 600;
+.paperbox {
+  display:inline-block;
+  padding:.35rem .6rem;
+  border:2px solid #222;
+  border-radius:6px;
+  font-weight:700;
+  text-decoration:none;
+  color:inherit;
 }
