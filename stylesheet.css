@@ -161,7 +161,7 @@ span.highlight {
 }
 
 .section-title {
-  font-size: 28px;    /* try 28px, or use 1.75rem for relative sizing */
+  font-size: 32px;    /* try 28px, or use 1.75rem for relative sizing */
   font-weight: 700;   /* optional: make it bold */
   margin: 0.25em 0;   /* optional spacing */
 }
