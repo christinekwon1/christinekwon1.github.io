@@ -142,11 +142,20 @@ span.highlight {
 }
 
 .paperbox {
-  display:inline-block;
-  padding:.35rem .6rem;
-  border:2px solid #222;
-  border-radius:6px;
-  font-weight:700;
-  text-decoration:none;
-  color:inherit;
+  display: inline-block;
+  padding: .35rem .6rem;
+  border: 2px solid #0066CC;      /* same blue */
+  border-radius: 6px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #0066CC;                 /* same blue */
+  background: transparent;
+  transition: background .15s, border-color .15s;
+}
+
+.paperbox:hover,
+.paperbox:focus {
+  background: rgba(0, 102, 204, 0.08); /* very light blue on hover */
+  border-color: #005bb3;                /* slightly darker on hover (optional) */
+  outline: none;
 }
